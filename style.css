@@ -1,0 +1,201 @@
+body{
+    background-color: #FEF3F3;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    overflow-x: hidden;
+}
+.nomeprinprin{
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 4%;
+}
+header{
+    font-family: 'Times New Roman', Times, serif;
+}
+.nomes{
+    margin-left: 50px;
+}
+.cabecalho{
+    display: flex;
+}
+.tabela{
+    position: absolute;
+    top: 24%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    height: 61px;
+    overflow: hidden;
+    margin-top: 170px;
+    
+    
+}
+.tabela2{
+    opacity: 0;
+}
+.barra{
+    position: absolute;
+    top: 4%;
+    left: 59%;
+    transform: translate(-48%, -48%);
+    height: 40px;
+    margin-top: 13px;
+
+}
+.bolsa{
+    position: relative;
+    margin-left: 200vh;
+    margin-top:20px ;
+    
+}
+.DeliDely{
+    width: 218px;
+    margin-left: -7px;
+    margin-top:-9px;
+    overflow: hidden;
+    
+}
+    
+.Hi{
+    position: absolute;
+    top: 0;
+    margin-left: 110px;
+    margin-top: 9px;
+    font-size: 20px;
+    top: 1%;
+    left: 10%;
+}
+.What{
+    position: absolute;
+    top: 0;
+    margin-left: 110px;
+    font-size: 20px;
+    top: 3%;
+    left: 10%;
+    }
+.app{
+    position: absolute;
+    top: 4%;
+    left: 58%;
+    height: 200px;
+    margin-top: 210px;
+    transform: translate(-80%, -80%);
+    
+}
+.espaguete{
+    position: relative;
+    display: flex;
+    margin-top: -22%;
+    left: 18.8%;
+    gap: 18px;
+    
+}
+.espaguete2{
+    margin-left: -18px;
+}
+.botao{
+    opacity: 0;
+}
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px){
+body{
+    background-color: #FEF3F3;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    overflow: hidden;
+}
+.nomes{
+position: relative;
+display: grid;
+float: left;
+white-space: nowrap;
+font-size: 10px;
+font-family: 'Times New Roman', Times, serif;
+opacity: 1;
+}
+.What{
+    margin-top: 30px;
+}
+
+.barra{
+    width: 60vh;
+    margin-left: -10vh;
+}
+.tabela{
+    opacity: 0;
+}
+.tabela2{
+    opacity: 1;
+    position: relative;
+    top: 45vh;
+    left: 4vh;
+}
+.imagem{
+    position: absolute;
+    margin-right: 25vh;
+    margin-top: 30vh;
+    height: 30vh;
+    
+}
+.espaguete{
+    position: relative;
+    width: 15vh;
+    margin-left: 5vh;
+    margin-top: 30vh;
+}
+.botao{
+    opacity: 1;
+    position: relative;
+    left: 24vh;
+    top: 25vh;
+    margin-top: -5vh;
+}
+ .DeliDely{
+        opacity: 0;
+    }
+    .bolsa{
+        margin-left: 66vh;
+    }
+}
+@media (max-width: 768px){
+    .nomes{
+        opacity: 0;
+    }
+    .tabela{
+        opacity: 0;
+    }
+    .DeliDely{
+        opacity: 0;
+    }
+    .barra{
+        height: 4vh;
+  }
+  .app{
+    height: 22vh;
+    margin-left: 12vh;
+    margin-top: 30vh;
+  }
+  .espaguete{
+    position: relative;
+    height: 20vh;
+   left: 2.5vh;
+   top: -40vh;
+  }
+  .espaguete3{
+    margin-left: -2vh;
+  }
+  .botao{
+    position: relative;
+    opacity: 1;
+    top: -30vh;
+    right: -18vh;
+    height: 10vh;
+  }
+  .bolsa{
+    margin-left: 66vh;
+  }
+}
